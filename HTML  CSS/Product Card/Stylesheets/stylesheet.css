@@ -8,3 +8,131 @@ body {
     background-color: #f2ebe3;
 }
 
+.container {
+    width: 806px;
+    height: 605px;
+    margin-top: 190px;
+    margin-bottom: 170px;
+    margin-left: 580px;
+    display: flex;
+
+}
+
+/* Styling the Left-content */
+.left-content {
+    width: 403px;
+    height: 605px;
+    border-radius: 20px 0px 0px 20px;
+    flex-shrink: 0;
+    
+}
+
+/* Styling the Right-content */
+ .right-content {
+    width: 403px;
+    height: 605px;
+    border-radius: 0px 20px 20px 0px;
+    background: #FFF;
+    flex-shrink: 0;  
+}
+
+
+.right-container {
+    padding-top: 50px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 10px;
+
+}
+
+/* Styling the texts */
+.text1 { /*common styling of h3, main-text*/
+color: #6C7289;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+}
+
+h3 { /*perfume text*/
+    line-height: normal;
+    letter-spacing: 8.4px;
+    
+}
+
+h1 {
+    color: #1c232b;
+    font-family: Fraunces;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 100% */
+    padding-top: 36px;
+    padding-right: 70px;
+}
+
+.main-text { 
+    line-height: 25px; 
+    letter-spacing: 1.4px;
+    padding-top: 36px;
+    padding-right: 40px;
+}
+
+
+/* Styling the Prices */
+.prices {
+    display: flex;
+    gap: 40px;  
+}
+
+.main-price { /*$149.99*/
+    font-family: Fraunces;
+    color: #3C8067;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    font-style: normal;
+    padding-top: 36px;
+    padding-bottom: 36px;
+
+}
+
+.small-price { /*$169.99*/
+    color: #6C7289;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: line-through;
+    padding-top: 42px;
+}
+
+
+/* styling the button */
+
+button {
+    width: 324px;
+    height: 8vh;
+}
+
+.bt { /*Add to cart*/  
+    display: inline-flex;
+    padding: 27px 104px;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 16px;
+    border: 0px;
+    border-radius: 10px;
+    background: #3c8067;
+}
+
+.bt-text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
