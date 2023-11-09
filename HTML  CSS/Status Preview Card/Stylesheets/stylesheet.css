@@ -3,3 +3,93 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: #090B1A;
+}
+/* Styling the main conatiner */
+.container {
+    display: inline-flex;
+    margin-top: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+/* Styling the left section */
+.left-container {
+    width: 740px;
+    height: 500px;
+    margin-top: 0px;
+    margin-left: 80px;
+    background-color: #1B1938;
+    border-radius: 15px 0px 0px 15px;
+    
+}
+
+.main-content{
+    margin-top: 60px;
+    margin-left: 70px;
+    margin-right: 150px;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-right: 10px;
+    text-align: left;
+}
+
+span {  /*-- "insights" word --*/
+    color: #AA5CDB;
+}
+
+.main-text {
+    color: rgba(255, 255, 255, 0.75);
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 2px;
+
+    margin-top: 25px;
+}
+
+.stat {
+    display: flex;
+    margin-top: 100px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    gap: 110px;
+}
+
+.row {
+    display: flex;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 8px;
+    gap: 95px;
+}
+
+/* Styling the right container */
+
+/* styling the image */
+img {
+    border-radius: 0px 15px 15px 0px;
+}
+
+.attribution {
+    margin-top: 250px;
+    margin-left: 850px;
+    color: #FFF;
+    font-family: Inter;
+    
+    
+}
