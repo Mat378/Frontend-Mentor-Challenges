@@ -1,0 +1,82 @@
+/* default settings */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    background-color: hsl(185, 75%, 39%);
+    overflow-wrap: normal;
+}
+
+/* Styling the container */
+.conatiner {
+    width: 2048px;
+    height: 995px;
+    overflow: hidden;
+    background: #19A2AE;
+}
+
+/*  */
+.pattern-top {
+    width: 1000px;
+    height: 1000px;
+    margin-top: -430px;
+    margin-left: -100px; 
+}
+
+/* Styling the container-2*/
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 530px;
+    border-radius: 20px;
+    background: #FFF;
+    margin-top: -380px;
+    margin-left: 790px;
+}
+
+/* styling the blue-circular pattern */
+img, .top {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+/* Styling the picture of the teen */
+.teen-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    margin-top: -80px;
+    margin-left: 150px;
+    border: 7px solid #ffffff;  
+}
+
+/* Styling the middle */
+/* .middle {
+
+} */
+
+/* Styling the bottom */
+.bottom {
+    border-top: 0.7px solid hsl(0, 0%, 59%);
+}
+
+/*  */
+.pattern-bottom {
+    width: 1500px;
+    height: 1500px;
+    margin-top: -200px;
+    margin-left: 900px;
+}
+
+/* Frontend mentor link */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
