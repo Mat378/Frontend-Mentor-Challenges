@@ -1,103 +1,80 @@
-/* Default Settings */
-* {
+* { /* default stylings */
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: #f2ebe3;
+    background-color: #F2ebe3;
+    display: inline-flex;
+    padding-top: 250px;
+    padding-left: 730px;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-.container {
-    width: 806px;
-    height: 605px;
-    margin-top: 190px;
-    margin-bottom: 170px;
-    margin-left: 580px;
+.card {
     display: flex;
-
+    align-items: flex-start;
 }
 
-/* Styling the Left-content */
-.left-content {
-    width: 403px;
-    height: 605px;
-    border-radius: 20px 0px 0px 20px;
-    flex-shrink: 0;
-    
-}
-
-/* Styling the Right-content */
- .right-content {
-    width: 403px;
-    height: 605px;
+/* Styling the right side containing the texts  */
+.right-container {
+    display: flex;
+    padding: 58px 44px;
     border-radius: 0px 20px 20px 0px;
     background: #FFF;
-    flex-shrink: 0;  
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 36px;
 }
 
-
-.right-container {
-    padding-top: 50px;
-    padding-left: 38px;
-    padding-right: 38px;
-    padding-bottom: 10px;
-
-}
-
-/* Styling the texts */
-.text1 { /*common styling of h3, main-text*/
-color: #6C7289;
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-}
-
-h3 { /*perfume text*/
+.heading-1 { /*Styling the heading*/
+    color: #6C7289;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
     line-height: normal;
     letter-spacing: 8.4px;
-    
 }
 
-h1 {
-    color: #1c232b;
+.heading-2 {
+    width: 271px;
+    color: #1C232B;
     font-family: Fraunces;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px; /* 100% */
-    padding-top: 36px;
-    padding-right: 70px;
+    line-height: 40px;
 }
 
-.main-text { 
-    line-height: 25px; 
+.main-text { /*styling paragraph*/
+    width: 271px;
+    color: #6C7289;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
     letter-spacing: 1.4px;
-    padding-top: 36px;
-    padding-right: 40px;
 }
 
-
-/* Styling the Prices */
+/* styling the new and old prices */
 .prices {
     display: flex;
-    gap: 40px;  
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
 }
-
-.main-price { /*$149.99*/
-    font-family: Fraunces;
+.newprice {
     color: #3C8067;
+    font-family: Fraunces;
     font-size: 30px;
+    font-style: normal;
     font-weight: 700;
     line-height: normal;
-    font-style: normal;
-    padding-top: 36px;
-    padding-bottom: 36px;
-
 }
-
-.small-price { /*$169.99*/
+.oldprice {
     color: #6C7289;
     font-family: Montserrat;
     font-size: 14px;
@@ -105,29 +82,23 @@ h1 {
     font-weight: 500;
     line-height: normal;
     text-decoration: line-through;
-    padding-top: 42px;
+    padding: 5px 0px;
 }
 
-
-/* styling the button */
-
-button {
-    width: 324px;
-    height: 8vh;
-}
-
-.bt { /*Add to cart*/  
-    display: inline-flex;
+/* styling the Button */
+.button {
+    display: flex;
+    /* overflow: hidden; */
     padding: 27px 104px;
+    border-radius: 10px ;
+    border-color: #FFF;
+    background: #3C8067;
     /* justify-content: center; */
-    align-items: center;
-    gap: 16px;
-    border: 0px;
-    border-radius: 10px;
-    background: #3c8067;
+    /* align-items: center; */
+    gap: 26px;
 }
 
-.bt-text {
+.button-text {
     color: #FFF;
     font-family: Montserrat;
     font-size: 14px;
@@ -135,4 +106,3 @@ button {
     font-weight: 500;
     line-height: normal;
 }
-
